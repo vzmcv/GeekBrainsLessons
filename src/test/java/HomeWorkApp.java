@@ -11,7 +11,6 @@ public class HomeWorkApp {
      static void printThreeWords() {
 
         System.out.println("Orange" +"\n" + "Banana" + "\n" + "Apple" );
-
     }
      static void checkSumSign() {
         int a = 1;
