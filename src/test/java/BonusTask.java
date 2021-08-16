@@ -12,6 +12,5 @@ public class BonusTask {
 
         return 0;
         }
-
     }
 
