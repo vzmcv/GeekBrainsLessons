@@ -1,13 +1,13 @@
-package Lesson5;
+package Lesson5.Emloyee;
 
 public class Employee {
 
-        protected String FullName;
-        protected String Position;
-        protected String eMail;
-        protected Integer PhoneNumber;
-        protected Integer Salary;
-        protected Integer Age;
+         String FullName;
+         String Position;
+         String eMail;
+         Integer PhoneNumber;
+         Integer Salary;
+         Integer Age;
 
         public Employee(String FullName, String Position, String eMail, int PhoneNumber, int Salary, int Age){
 
@@ -21,6 +21,7 @@ public class Employee {
         }
 
         public void info() {
+                if(this.Age>40)
                         System.out.println("ФИО: " + FullName + "; Должность: " + Position + "; eMail: " + eMail
                                 + "; Номер телефона: " + PhoneNumber + "; Зарплата: " + Salary + "; Возраст: " + Age);
         }
