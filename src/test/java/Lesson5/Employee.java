@@ -2,12 +2,12 @@ package Lesson5;
 
 public class Employee {
 
-        String FullName;
-        String Position;
-        String eMail;
-        Integer PhoneNumber;
-        Integer Salary;
-        Integer Age;
+        protected String FullName;
+        protected String Position;
+        protected String eMail;
+        protected Integer PhoneNumber;
+        protected Integer Salary;
+        protected Integer Age;
 
         public Employee(String FullName, String Position, String eMail, int PhoneNumber, int Salary, int Age){
 
