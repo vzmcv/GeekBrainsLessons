@@ -1,5 +1,7 @@
 package Lesson5;
 
+import Lesson5.Emloyee.Employee;
+
 public class MainAppLesson5 {
     public static void main(String[] args){
 
@@ -12,7 +14,6 @@ public class MainAppLesson5 {
             };
 
         for (int i = 0; i < 5; i++) {
-            if(employees[i].Age>40)
                 employees[i].info();
             }
         }
